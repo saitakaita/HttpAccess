@@ -65,7 +65,7 @@
     if (sender.tag==BTN_READ) {
         [_indicator startAnimating];
         
-        dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             NSURLRequest* request = [NSURLRequest
                                      requestWithURL:[NSURL URLWithString:URL_TEST]
                                      cachePolicy:NSURLRequestUseProtocolCachePolicy

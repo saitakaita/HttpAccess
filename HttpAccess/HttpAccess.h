@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HttpAccess : UIViewController {
+@interface HttpAccess : UIViewController <UITextFieldDelegate>{
     UITextField* _textField;
     UIActivityIndicatorView* _indicator;
 }
