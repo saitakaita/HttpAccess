@@ -16,6 +16,8 @@
 		768CAA8F16D11DD800AAFD23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA8E16D11DD800AAFD23 /* Default.png */; };
 		768CAA9116D11DD800AAFD23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA9016D11DD800AAFD23 /* Default@2x.png */; };
 		768CAA9316D11DD800AAFD23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA9216D11DD800AAFD23 /* Default-568h@2x.png */; };
+		768CAA9C16D11DFF00AAFD23 /* HttpAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CAA9A16D11DFF00AAFD23 /* HttpAccess.m */; };
+		768CAA9D16D11DFF00AAFD23 /* HttpAccess.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA9B16D11DFF00AAFD23 /* HttpAccess.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		768CAA8E16D11DD800AAFD23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		768CAA9016D11DD800AAFD23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		768CAA9216D11DD800AAFD23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		768CAA9916D11DFF00AAFD23 /* HttpAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccess.h; sourceTree = "<group>"; };
+		768CAA9A16D11DFF00AAFD23 /* HttpAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAccess.m; sourceTree = "<group>"; };
+		768CAA9B16D11DFF00AAFD23 /* HttpAccess.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HttpAccess.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				768CAA8B16D11DD800AAFD23 /* AppDelegate.h */,
 				768CAA8C16D11DD800AAFD23 /* AppDelegate.m */,
 				768CAA8316D11DD800AAFD23 /* Supporting Files */,
+				768CAA9916D11DFF00AAFD23 /* HttpAccess.h */,
+				768CAA9A16D11DFF00AAFD23 /* HttpAccess.m */,
+				768CAA9B16D11DFF00AAFD23 /* HttpAccess.xib */,
 			);
 			path = HttpAccess;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				768CAA8F16D11DD800AAFD23 /* Default.png in Resources */,
 				768CAA9116D11DD800AAFD23 /* Default@2x.png in Resources */,
 				768CAA9316D11DD800AAFD23 /* Default-568h@2x.png in Resources */,
+				768CAA9D16D11DFF00AAFD23 /* HttpAccess.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				768CAA8916D11DD800AAFD23 /* main.m in Sources */,
 				768CAA8D16D11DD800AAFD23 /* AppDelegate.m in Sources */,
+				768CAA9C16D11DFF00AAFD23 /* HttpAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

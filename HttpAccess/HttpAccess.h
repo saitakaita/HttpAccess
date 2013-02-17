@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HttpAccess.h
 //  HttpAccess
 //
 //  Created by tomohiko on 2013/02/17.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>{
-    UIWindow* _window;
+@interface HttpAccess : UIViewController {
+    UITextField* _textField;
+    UIActivityIndicatorView* _indicator;
 }
-
-@property (nonatomic,retain) UIWindow *window;
 
 @end
