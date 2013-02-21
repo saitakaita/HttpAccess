@@ -26,10 +26,23 @@
     return button;
 }
 
-- (NSString*)data2str:(NSData*)data {
+- (NSString*)str:(NSData*)data {
     return [[[NSString alloc] initWithData:data
                                   encoding:NSUTF8StringEncoding] autorelease];
 }
+
+- (void)setHTTPMethod:(NSString*)httpMethod {
+    NSMutableURLRequest* requestPost = [NSMutableURLRequest
+                                        requestWithURL:[NSURL URLWithString:URL_TEST]];
+    [request setHTTPMethod:@"POST"];
+    [request setHTTPBoby:body];
+}
+- (void)setHTTPBody:(NSData*)data {
+    NSError* error2 = nil;
+    NSData* data2s = [NSURLConnection sendSynchronousRequest:request
+                                         returningResponse:nil error:&error];
+}
+
 
 - (void)viewDidLoad
 {
